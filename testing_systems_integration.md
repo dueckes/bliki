@@ -51,7 +51,7 @@ In both cases the same considerations apply to a real or simulated system.
 * __Isolation__: This is the least isolated approach as the test environment may be used by many consumers, making test isolation more challenging.
 * __Speed__: Test execution is impacted by other load on the producer system.  However, the speed will be proportional to the users experience of the system interaction.
 
-## Self-Managed By Consumer
+### Self-Managed By Consumer
 
 * __Correctness Confidence__: Consumers must ensure that their instance of the producer is up-to-date and consistent with what the producer has in production.
 * __Reliability__: Tests are more reliable as the consumer is in complete control of the test infrastructure.
