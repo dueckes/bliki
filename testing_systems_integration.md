@@ -31,13 +31,13 @@ Those integrating with a system may have a choice between relying on the real sy
 
 ### System Simulation
 
-Aka [virtualised system](https://en.wikipedia.org/wiki/Virtualization).
+Aka [virtualised system](https://en.wikipedia.org/wiki/Virtualization). 
 
-* __Correctness Confidence__: This is more difficult to achieve.  The real system must constantly prove it is consistent with the simulation.
-* __Isolation__: Tests can be isolated with much less effort as some simulations allow interactions and their side-effects to be completely isolated from other interactions.  An example of this is [http_stub's sessions concept](https://github.com/MYOB-Technology/http_stub/wiki/Stub%20Sessions).
-* __System Setup__: The setup of virtual systems is often extremely simple.  For example [http_stub allows consumers to simply activate scenarios](https://github.com/MYOB-Technology/http_stub/wiki/Scenarios) to setup the system.
-* __Speed__: Virtual systems are usual simple state machines, trivial in complexity and are highly-performant.
-* __Visual Inspection__: The setup for each visual test scenario can be simply achieved by priming the simulation.  For example, [http_stub provides a user interface allowing scenarios to be activated](https://github.com/MYOB-Technology/http_stub/wiki/Diagnostic-Pages#listing-the-scenarios).
+* __Correctness Confidence__: This is more difficult to achieve.  The real system and simulation must constantly be proven to be consistent whenever either change.  Tooling that [generates simulations from system artefacts](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto) can significantly help here.
+* __Isolation__: Tests can be isolated with much less effort as simulations can allow interactions and their side-effects to be isolated from other interactions.  An example of this is [http_stub's sessions concept](https://github.com/MYOB-Technology/http_stub/wiki/Stub%20Sessions).
+* __System Setup__: The setup of virtual system is often very simple.  For example [http_stub allows consumers to simply activate scenarios](https://github.com/MYOB-Technology/http_stub/wiki/Scenarios) to setup the system.
+* __Speed__: Virtual systems are usually of trivial complexity and are highly performant, often outperforming real systems.  There performance is also largely constant, regardless of the integration being performed.
+* __Visual Inspection__: The setup for each visual test scenario can be achieved by priming the simulation, and some systems make this trivially simple.  For example, [http_stub provides a user interface allowing scenarios to be activated](https://github.com/MYOB-Technology/http_stub/wiki/Diagnostic-Pages#listing-the-scenarios).
 
 ## Producer Or Consumer Managed System
 
@@ -47,13 +47,13 @@ In both cases the same considerations apply to a real or simulated system.
 ### Producer Managed System
 
 * __Correctness Confidence__: For absolute confidence, the producer must ensure that the software in their test environment is consistent to that which is in production.
-* __Reliability__: This is dependant on the producers ability to keep the test environment available, making it less reliable.
-* __Isolation__: This is the least isolated approach as the test environment may be used by many consumers, making test isolation more challenging.
-* __Speed__: Test execution is impacted by other load on the producer system.  However, the speed will be proportional to the users experience of the system interaction.
+* __Reliability__: This approach is less reliable, dependant on the producers ability to keep the test environment available.
+* __Isolation__: Other consumers of the producer system can impact the results of your tests, and may need to be mitigated by scheduling or regular system setup exercises.
+* __Speed__: Speed can be reduced by load from other consumers of the producer system.  However, the speed will be proportional to the users experience of the system interaction.
 
 ### Self-Managed By Consumer
 
-* __Correctness Confidence__: Consumers must ensure that their instance of the producer is up-to-date and consistent with what the producer has in production.
-* __Reliability__: Tests are more reliable as the consumer is in complete control of the test infrastructure.
-* __Isolation__: Tests are more isolated as they are not impacted by the use of other systems.
-* __Speed__: Test speed is more stable as no other load will come into effect.
+* __Correctness Confidence__: Confidence is again proportional to the self-managed environments consistency with the production environment, but the burden here now shifts to the consumer.  They must spend additional effort to ensure ongoing consistency.
+* __Reliability__: Greater reliability is achieved as the consumer is in control of the infrastructure involved in the test.
+* __Isolation__: Greater isolation is achieved as other no other consumers can impact the state of the system.
+* __Speed__: Speed stabilises as no other consumers will use the system.
