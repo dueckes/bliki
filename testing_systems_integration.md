@@ -11,7 +11,11 @@ There are a number of considerations when testing integration across systems:
 Many of these test concerns are broad and not unique to systems integration testing.
 
 As with anything in software development, there are a number of approaches to testing integration across systems.
-Let's look at these, and reflect on the considerations we listed above.
+I'll look at these in detail below and reflect on the considerations we listed above.
+
+However, before we get there I'd like to make one thing perfectly clear: _there is no one size fits all_, no approach that one should always follow with others cast aside and never considered again.
+Having a general preference or ideal approach is fine, but the approach we take at any time will be based on context of that integration - the nature of the system we're integrating with and its complexities.
+This context will shape the pro's and con's of the approaches and should be key in decision making.
 
 ## Real Vs Virtualised System
 
