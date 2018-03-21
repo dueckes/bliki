@@ -33,11 +33,11 @@ Those integrating with a system may have a choice between relying on the real sy
 
 Aka [virtualised system](https://en.wikipedia.org/wiki/Virtualization). 
 
-* __Correctness Confidence__: This is more difficult to achieve.  The real system and simulation must constantly be proven to be consistent whenever either change.  Tooling that [generates simulations from system artefacts](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto) can significantly help here.
-* __Isolation__: Tests can be isolated with much less effort as simulations can allow interactions and their side-effects to be isolated from other interactions.  An example of this is [http_stub's sessions concept](https://github.com/MYOB-Technology/http_stub/wiki/Stub%20Sessions).
-* __System Setup__: The setup of virtual system is often very simple.  For example [http_stub allows consumers to simply activate scenarios](https://github.com/MYOB-Technology/http_stub/wiki/Scenarios) to setup the system.
-* __Speed__: Virtual systems are usually of trivial complexity and are highly performant, often outperforming real systems.  There performance is also largely constant, regardless of the integration being performed.
-* __Visual Inspection__: The setup for each visual test scenario can be achieved by priming the simulation, and some systems make this trivially simple.  For example, [http_stub provides a user interface allowing scenarios to be activated](https://github.com/MYOB-Technology/http_stub/wiki/Diagnostic-Pages#listing-the-scenarios).
+* __Correctness Confidence__: This is more difficult to achieve as the real system and simulation must constantly be proven to be consistent whenever either change.  Tooling that [generates simulations from the real systems artifacts](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto) can significantly help here.
+* __Isolation__: Tests can be isolated with much less effort as simulations can [isolate any side-effects caused by a test](https://github.com/MYOB-Technology/http_stub/wiki/Stub%20Sessions).
+* __System Setup__: The setup of virtual system is often very simple.  Tools can afford achieving this [setup simply and dynamically](https://github.com/MYOB-Technology/http_stub/wiki/Scenarios).
+* __Speed__: Virtual systems are usually highly performant as they are of trivial complexity, often outperforming real systems.  There performance is also largely O(1), regardless of the integration being performed.
+* __Visual Inspection__: The setup for each visual test scenario is achieved by priming the simulation, some virtually systems making this [trivially simple](https://github.com/MYOB-Technology/http_stub/wiki/Diagnostic-Pages#listing-the-scenarios).
 
 ## Producer Or Consumer Managed System
 
