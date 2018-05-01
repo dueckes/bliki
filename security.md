@@ -9,7 +9,7 @@ For mind, the industry has largely missed this step for a few reasons:
 An early adopter shift is in motion at the moment.  The forces effecting all three of these reasons are changing.
 Any change going into production must and should go through a minimum set of security verification - with that set determined by the application's risk profile.
 
-# OWASP ASVS 3.0.1 Distilled
+# OWASP ASVS 3.0.1
 
 ## What is ASVS?
 The OWASP Application Security Verification Standard intends to help individuals, teams and organisations guide the security of their software assets.
@@ -25,7 +25,7 @@ __Level 1 - 'Opportunistic'__: applies to any application.
 __Level 2 - 'Standard'__: applies to applications handling [PII](https://en.wikipedia.org/wiki/Personally_identifiable_information), PCI (Payment Card Industry) data that can lead to small amounts of financial loss, or non-critical secrets (e.g intellectual property).
 __Level 3 - 'Advanced'__: applies to applications that can lead to the loss of critical secrets (e.g. intellectual property), large amounts of financial data or can threaten health.
 
-### Requirements
+## The requirements in brief
 
 #### Architecture, design and threat modelling
 __Purpose:__ Ensure the architecture of the application and threats inherent to this are known. 
@@ -42,7 +42,7 @@ __Purpose:__ Ensure the architecture of the application and threats inherent to 
 * Components are separated and restrict access through mechanisms such as firewalls or security groups.
 * All security components and dependencies reuse a common verified asset and are not implemented bespoke.
 * Client side code does not contain data such as secrets or business logic representing IP.
-* Apply [STRIDE threat modelling](https://dzone.com/articles/stride-threat-model) identifying what can go wrong and what countermeasures are possible ([example](https://www.securityweek.com/threat-modeling-internet-things-part-3-real-world-example)).
+* Apply [STRIDE threat modelling](https://dzone.com/articles/stride-threat-model) identifying what can go wrong and possible countermeasures ([example](https://www.securityweek.com/threat-modeling-internet-things-part-3-real-world-example)).
 
 #### Authentication
 __Purpose:__ Ensure all credentials are handled securely and that interactions are with trusted parties.
@@ -281,7 +281,38 @@ __Purpose:__ Data is stored and transmitted security to mobile devices.
  
 ##### Level 3
 * Debugging of the application is difficult and deterred.
-* 
 
 #### Web services
+__Purpose:__ Ensure web API's have appropriate security controls. 
+
+##### Level 1
+* Client and server encoding is consistent.
+* Server administration functions are secured, only accessible by administrators.
+* XML and JSON schema is used as part of request validation.  Inputs are size limited.
+* An appropriate [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) version is in use.
+* Session authentication and authorization measures are secure.
+* Avoid static API keys.
+* At least one [cross-site request forgery](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)) countermeasure is in-place.  Potential options: [origin header verification](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#Checking_the_Origin_Header), [referer header verification](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#Checking_the_Referer_Header), [the double submit cookie pattern](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#Double_Submit_Cookie), CSRF [nonces](https://en.wikipedia.org/wiki/Cryptographic_nonce).
+
+##### Level 2
+* Validate the `Content-Type` header.
+* Sign the content of messages, for example via [JSON Web Signing](https://ordina-jworks.github.io/security/2016/03/12/Digitally-signing-your-JSON-documents.html).
+* Alternative access to data is not possible.
+ 
 #### Configuration
+__Purpose:__ Ensure configuration does not effect the security of components.
+
+##### Level 1
+* Components and libraries are configured with best security practice and versions are up-to-date.
+
+##### Level 2
+* Communications between components is encrypted and authenticated, following the [principle of least privilege]([least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)).
+* Applications are isolated, limiting the impacts of a breech.
+* Application builds and deployments are preformed following good security practice.
+
+##### Level 3
+* Administrators can verify configuration to ensure its authenticity.
+* All components are signed.
+* All 3rd party dependency are from trusted sources.
+* Builds have security flags enabled (e.g. [DEP](https://en.wikipedia.org/wiki/Executable_space_protection), [ASLR](https://en.wikipedia.org/wiki/Address_space_layout_randomization)).
+* All assets are sourced from the application, not via content providers/[CDN's](https://en.wikipedia.org/wiki/Content_delivery_network). 
