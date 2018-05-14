@@ -202,7 +202,7 @@ __Purpose:__ Ensure all communications are secure.
 
 ##### Level 1
 * Certificates are valid and issued by trusted [CA's](https://en.wikipedia.org/wiki/Certificate_authority).
-* [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) is exclusively in-use with no fall-back.
+* [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) is exclusively in-use with no fallback.
 * [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) settings are current best practice.
 * HTTP Strict Transport Security headers are on all requests and for all subdomains.
 * Enable [perfect forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) to mitigate recording of traffic.
@@ -266,7 +266,7 @@ __Purpose:__ Data is stored and transmitted security to mobile devices.
 
 ##### Level 1
 * Never use device identifiers as authentication tokens.
-* Sensitive data is not stored unencrpyted or unprotected on device.
+* Sensitive data is not stored unencrypted or unprotected on device.
 * Secrets (e.g. API or authentication tokens) are dynamically generated for mobile applications.
 * Ensure memory is organised randomly (OS's typically implement [ASLR](https://en.wikipedia.org/wiki/Address_space_layout_randomization)).
 * Sensitive activities, intents or content providers cannot be exploited by other mobile applications.
