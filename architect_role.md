@@ -1,8 +1,8 @@
 ## References
-[So you want to be a software architect?](http://blog.nofluffjuststuff.com/2016/02/15/so-you-want-to-be-an-architect)
-[Role of the architect](https://pgppgp.wordpress.com/2016/09/25/role-of-the-architect)
-[The Role of an Enterprise Architect in a Lean Enterprise](http://martinfowler.com/articles/ea-in-lean-enterprise.html) (from ‘How to get there’ down)
-[97 Things Every Software Architect Should Know](https://manohars.files.wordpress.com/2009/11/97-things-every-software-architect-should-know.pdf)
+- [So you want to be a software architect?](http://blog.nofluffjuststuff.com/2016/02/15/so-you-want-to-be-an-architect)
+- [Role of the architect](https://pgppgp.wordpress.com/2016/09/25/role-of-the-architect)
+- [The Role of an Enterprise Architect in a Lean Enterprise](http://martinfowler.com/articles/ea-in-lean-enterprise.html) (from ‘How to get there’ down)
+- [97 Things Every Software Architect Should Know](https://manohars.files.wordpress.com/2009/11/97-things-every-software-architect-should-know.pdf)
 
 ## Basic Summary
 
