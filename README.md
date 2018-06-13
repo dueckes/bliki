@@ -2,7 +2,7 @@
 
 [On what to expect working with me](https://docs.google.com/presentation/d/1tjxp0XvglWF0a9Ta76vszm_ow9Alo5wPWY5nHprPySg)
 
-[On being an effective architect](architect_role.md)
+[On being an effective architect](effective_architect.md)
 
 [Recommended books](recommended_books.md)
 
