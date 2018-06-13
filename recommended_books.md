@@ -1,5 +1,4 @@
-Recommended Books
-=================
+# Recommended Books
 
 In order of impact on my career.
 

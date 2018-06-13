@@ -1,7 +1,6 @@
 # On Behaviour Driven Development
 
 ## On Using Tools Separating Natural Language From Test Implementation
-
 Many have been burned by test tools that encourage specifying a test in natural language that is translation to executable code, such as tools like FitNesse & Gherkin.
 The thinking I've heard largely aligns with James Shore and his description of the [problems with acceptance testing](http://www.jamesshore.com/Blog/The-Problems-With-Acceptance-Testing.html).
 
