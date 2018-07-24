@@ -16,4 +16,6 @@
 
 [On Craftspersonship](craftspersonship.md)
 
-[On Security](security.md)
+[On security](security.md)
+
+[On psychology](psychology.md)
