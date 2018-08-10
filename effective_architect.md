@@ -6,7 +6,7 @@
 - [The Role of an Enterprise Architect in a Lean Enterprise](http://martinfowler.com/articles/ea-in-lean-enterprise.html) (from ‘How to get there’ down)
 - [97 Things Every Software Architect Should Know](https://manohars.files.wordpress.com/2009/11/97-things-every-software-architect-should-know.pdf)
 
-## Basic Summary
+## Key Responsibilities
 
 ### Clarity Of Vision
 - Map and understand current state of systems
@@ -29,3 +29,8 @@
 ### Build a Community of Learning
 - Have senior technologists meet regularly and share learnings and progress
 - Communities of Practice (CoPs) are a great vehicle for this
+
+## The Modern Architect: The 'Software Development Coach' 
+Perhaps this is the term that best describes the modern architect?
+The modern architect works with autonomous, highly skilled cross-functional teams and apply their role in servant leadership style.
+They often have a wealth of experience working with agile practices that span all parts of the organisation, and so are capable coaches on both agile and technical practices.
