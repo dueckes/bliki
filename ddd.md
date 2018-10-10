@@ -9,4 +9,5 @@
 - [DDD and Theory of Constraints - Blog](http://ntcoding.co.uk/blog/2017/01/finding-service-boundaries-one-rule)
 
 ## On Complexity & Decision Making
-- [Cynefix framework](https://en.wikipedia.org/wiki/Cynefin_framework)
+- [Cynefin framework](https://en.wikipedia.org/wiki/Cynefin_framework)
+- [Cynefin explained](https://www.youtube.com/watch?v=L5fnxahydXM)
