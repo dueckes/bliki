@@ -1,3 +1,8 @@
+# Neuro-Linguistic Programming
+Study of how people think and how this manifests in what they say.
+
+- [Neuro-Linguistic Programming for Dummies](http://www.downloads.imune.net/medicalbooks/Neuro-Linguistic-Programming-For-Dummies.pdf)
+
 # Urgency Bias
 We tend to choose tasks that are faster as the thrill of completion is felt sooner.
 
@@ -10,7 +15,9 @@ Initially we assume we have more knowledge.
 - [Overview](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
 # Myers-Briggs Personality Assessment
-Assessment of personality to help individuals and colleauges better understand personal strengths, weaknesses, aiding collaboration.
+Assessment of personality to help individuals and colleagues better understand personal strengths, weaknesses, aiding collaboration.
+
+It is widely recognised that Introvert and Extrovert behaviours flux.  A useful measure of this trait is how one relaxes and resets - through quiet time (Introvert) or social activity (Extrovert). 
 
 - [Is the assessment useful?](https://www.washingtonpost.com/national/on-leadership/myers-briggs-does-it-pay-to-know-your-type/2012/12/14/eaed51ae-3fcc-11e2-bca3-aadc9b7e29c5_story.html)
 - [Related: the five factor model](http://psych.colorado.edu/~carey/courses/psyc5112/readings/psnbig5_mccrae03.pdf)
@@ -19,3 +26,8 @@ Assessment of personality to help individuals and colleauges better understand p
 Assessment of a persons willingness to engage in conflict.
 
 - [Conflict handling styles](https://medium.com/@j0chy_/in-the-scale-of-turtle-to-shark-where-are-you-aee96468d50d)
+
+# Representational System Preference Test
+Assessment of how individuals process information.
+
+- [NLP Representational System Preference Test](https://www.transformdestiny.com/nlp-guide/nlp-representational-systems-preference-test.asp)

@@ -20,4 +20,6 @@
 
 [On security](security.md)
 
+[On continuous improvement](continuous_improvement.md)
+
 [On psychology](psychology.md)
