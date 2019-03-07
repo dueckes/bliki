@@ -8,7 +8,12 @@
 
 ## Key Responsibilities
 
-### Clarity Of Vision
+### Foster Domain Understanding
+- Great solutions are produced through a great understanding of the problem space
+- Champion crunching the domain to better express the domain through the architecture, design and implementation
+- Display & project domain models in physical space
+
+### Clarity Of Architecture Vision
 - Map and understand current state of systems
 - Express the desired state
 - Spread and refine vision
@@ -22,15 +27,20 @@
 - Connect work to the vision, especially during inceptions
 - Within reason, permit team experimentation outside the common tools and vision and feedback to the organisation
 
-### Find Opportunities for Change
-- When possible, connect visionary moves with business lead initiatives
+### Find Opportunities For Change
+- When possible, connect visionary moves with business initiatives
 - Sell technical initiatives with a focus on business values and risk reduction
 
-### Build a Community of Learning
+### Build A Community Of Learning
 - Have senior technologists meet regularly and share learnings and progress
 - Communities of Practice (CoPs) are a great vehicle for this
 
+### Teach Teams Regularly
+- Challenge the team to uplift their architecture, design and implementation skills
+- Include the team in architecture and design exploration
+- Implement with the team regularly with a bias towards teaching and expanding domain knowledge
+
 ## The Modern Architect: The 'Software Development Coach' 
 Perhaps this is the term that best describes the modern architect?
-The modern architect works with autonomous, highly skilled cross-functional teams and apply their role in servant leadership style.
+The modern architect works with autonomous, cross-functional teams and apply their role in servant leadership style.
 They often have a wealth of experience working with agile practices that span all parts of the organisation, and so are capable coaches on both agile and technical practices.

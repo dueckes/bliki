@@ -1,25 +1,29 @@
 # dueckes' bliki
 
-[On what to expect working with me](https://docs.google.com/presentation/d/1tjxp0XvglWF0a9Ta76vszm_ow9Alo5wPWY5nHprPySg)
+## About Me
+[What to expect working with me](https://docs.google.com/presentation/d/1tjxp0XvglWF0a9Ta76vszm_ow9Alo5wPWY5nHprPySg)
 
-[Recommended books](recommended_books.md)
+## Bliki Themes
+[Recommended Books](recommended_books.md)
 
-[On being an effective architect](effective_architect.md)
+[The Effective Architect](effective_architect.md)
 
-[On craftspersonship](craftspersonship.md)
+[Architecture Patterns](architecture_patterns.md)
 
-[On Domain Driven Design](ddd.md)
+[Craftspersonship](craftspersonship.md)
 
-[On Test Driven Development](tdd.md)
+[Domain Driven Design](ddd.md)
 
-[On Behaviour Driven Development](bdd.md)
+[Test Driven Development](tdd.md)
 
-[On testing systems integration](testing_systems_integration.md)
+[Behaviour Driven Development](bdd.md)
 
-[On API development](api_development.md)
+[Testing Systems Integration](testing_systems_integration.md)
 
-[On security](security.md)
+[API Contracts](api_contracts.md)
 
-[On continuous improvement](continuous_improvement.md)
+[Security](security.md)
 
-[On psychology](psychology.md)
+[Continuous Improvement](continuous_improvement.md)
+
+[Psychology](psychology.md)
