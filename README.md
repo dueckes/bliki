@@ -1,9 +1,7 @@
-# dueckes' bliki
-
-## About Me
+# About Me
 [What to expect working with me](https://docs.google.com/presentation/d/1tjxp0XvglWF0a9Ta76vszm_ow9Alo5wPWY5nHprPySg)
 
-## Bliki Themes
+# Bliki Themes
 [Recommended Books](recommended_books.md)
 
 [The Effective Architect](effective_architect.md)
