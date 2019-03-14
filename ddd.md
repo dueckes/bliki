@@ -12,10 +12,10 @@ _It is both a way of thinking and a way of doing._
 It's theory spans analysis, architecture, design and implementation concerns.
 
 ## Analysis
-- Domain Vision Statement
-- Build & Refine Ubiquitous Language
-- Forging Strong Relationships with Domain Experts
-- Knowledge Crunching
+- Domain vision statement
+- Build & refine ubiquitous language
+- Forging strong relationships with domain experts
+- Knowledge crunching
 - [Event Storming](https://www.eventstorming.com/)
 
 ### Identifying Domains Of Strategic Importance
@@ -28,17 +28,18 @@ It's theory spans analysis, architecture, design and implementation concerns.
 - [Cynefin explained](https://www.youtube.com/watch?v=L5fnxahydXM)
 
 ## Architecture
-- System Metaphor
+- System metaphor
 
 ### Identifying System Boundaries
-- Context Maps, Bounded Context
-- Organise Services & Systems:
-  - By Domain
-  - By Bounded Context
+- Context maps, bounded contexts
+- Organise services & systems:
+  - By domain
+  - By bounded context
 
 ### Organisation Structure
-- Team Collaboration Models: Shared Kernel, Customer/Supplier Teams, Conformist, Open Host Service, Separate Ways
-- Theory of constraints - what parts of the architecture & implementation slow the organisation down, how should the technology respond to that?  [DDD and Theory of Constraints - Video](http://www.ustream.tv/recorded/102893159), [DDD and Theory of Constraints - Blog](http://ntcoding.co.uk/blog/2017/01/finding-service-boundaries-one-rule)
+- Team collaboration models: Shared Kernel, Customer/Supplier Teams, Conformist, Open Host Service, Separate Ways
+- Theory of constraints - what parts of the architecture & implementation slow the organisation down, how should the technology respond to that?
+  - [DDD and Theory of Constraints - Video](http://www.ustream.tv/recorded/102893159), [DDD and Theory of Constraints - Blog](http://ntcoding.co.uk/blog/2017/01/finding-service-boundaries-one-rule)
 
 ## Design
 
