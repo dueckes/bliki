@@ -6,7 +6,7 @@
 
 [The Effective Architect](effective_architect.md)
 
-[Architecture Patterns](architecture_patterns.md)
+[Architecture Styles](architecture_styles.md)
 
 [Craftspersonship](craftspersonship.md)
 

@@ -1,12 +1,12 @@
-# On Architecture Patterns
+# On Architecture Styles
 
 ## Monoliths
 A single artefact deployed as one component whose design and implementation is disorganised.
-This pattern can eventuate for a numbers of reasons:
+This style can eventuate for a numbers of reasons:
 - Unintentionally: A modular design was intended, but internal architecture & design was loosely considered and enforced and/or implementors were poorly skilled. 
-- Intentionally: A view that speed-to-market is hastened through little to no architecture and design consideration.  Often there is a plan put in place to perish the monolith an implement a pattern when time pressures permit.
+- Intentionally: A view that speed-to-market is hastened through little to no architecture and design consideration.  Often there is a plan put in place to perish the monolith and implement an alternative style when time pressures permit.
 
-This pattern typically leads to a component whose development and/or operations becomes so time consuming and complex that working on it becomes no longer economically viable.
+This style typically leads to a component whose development and/or operations becomes so time consuming and complex that working on it becomes no longer economically viable.
 
 Resources:
 -[Monolithic System definition](https://en.wikipedia.org/wiki/Monolithic_system) 
@@ -36,12 +36,13 @@ Consequently the following controls are usually put in place:
 
 Their internal design is typically guided by Domain Driven Design theory.  For example, attention is paid to bounded contexts to ensure that a concept is not confused and polluted by multiple contexts.
 
-As with most architecture patterns, it requires considerable engineering discipline to sustain.
+As with most architecture styles, it requires considerable engineering discipline to sustain.
 When done poorly it is most at risk of devolving into a conventional Monolith.
 
 Resources:
 - [Modular Monoliths - Simon Brown presentation](https://www.youtube.com/watch?v=5OjqD-ow8GE)
 - [The Majestic Monolith (Basecamp)](https://m.signalvnoise.com/the-majestic-monolith/)
+- [Majestic Modular Monoliths](https://speakerdeck.com/axelfontaine/majestic-modular-monoliths?slide=56)
 
 ## Service Orientated Architecture
 Many artefacts deployed as separate physical components with no insinuation as to their quality - they may be organised or disorganised.
@@ -50,8 +51,8 @@ Critically, a set of services work together to make-up the system.  The boundari
 Because the architecture is distributed and the network inherently unreliable, fault tolerance becomes a strong consideration in the architecture.
 Mechanisms may be necessary to better guarantee delivery, assure recovery or improve responsiveness to counter integration lag.
 
-This pattern is largely unspoken nowadays as the term quickly became ambiguous and coupled to approaches such as WSDL based web services and tooling in the EAI/Middleware space.
-Middleware was commonly abused with this pattern and given too much responsibility, leading to an architecture that breaks the rule of 'smart endpoints and dumb pipes'. 
+This style is largely unspoken nowadays as the term quickly became ambiguous and coupled to approaches such as WSDL based web services and tooling in the EAI/Middleware space.
+Middleware was commonly abused with this style and given too much responsibility, leading to an architecture that breaks the rule of 'smart endpoints and dumb pipes'. 
 
 Resources:
 - [Service Orientated Architecture](https://en.wikipedia.org/wiki/Service-oriented_architecture)
@@ -61,7 +62,7 @@ Resources:
 ## Microservices
 Many small artefacts deployed as separate physical components with no insinuation as to their quality.
 
-This pattern is similar to Service Orientated Architecture and suffers from the same distribution consequences, but is distinguished by a focus on the following benefits:
+This style is similar to Service Orientated Architecture and suffers from the same distribution consequences, but is distinguished by a focus on the following benefits:
 - Making things small enough to be quickly replaceable.
 - Allowing each service to use a language and tools most suited to its problem space.
 - Services are modifiable and deployable fast because their scope is heavily limited.
@@ -88,7 +89,7 @@ When cloud provider functions are used the following should be considered:
 - Limits apply on the functions such as execution time and number executing in parallel.
 - Integration tests cannot be performed locally (disconnected from the network). 
 
-This pattern is a realisation of the Nanoservices pattern that aims for extremely small sized artefacts and components.
+This style is a realisation of the Nanoservices style that aims for extremely small sized artefacts and components.
 
 Resources:
 - [Serverless architectures](https://martinfowler.com/articles/serverless.html)
