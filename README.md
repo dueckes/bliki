@@ -2,11 +2,13 @@
 [What to expect working with me](https://docs.google.com/presentation/d/1tjxp0XvglWF0a9Ta76vszm_ow9Alo5wPWY5nHprPySg)
 
 # Bliki Themes
-[Recommended Books](recommended_books.md)
+[Recommended Reading](recommended_reading.md)
 
-[The Effective Architect](effective_architect.md)
+[Architect Role](architect_role.md)
 
 [Architecture Styles](architecture_styles.md)
+
+[Conways Law](conways_law.md)
 
 [Craftspersonship](craftspersonship.md)
 

@@ -16,3 +16,9 @@ In order of impact on my career.
 - [Agile Web Development With Rails](https://www.amazon.com/Agile-Web-Development-Rails-2nd/dp/0977616630/ref=sr_1_4?s=books&ie=UTF8&qid=1513904572&sr=1-4&keywords=agile+web+development+with+rails)
 - [The RSpec Book](https://www.amazon.com/RSpec-Book-Behaviour-Development-Cucumber/dp/1934356379)
 - [The Fifth Discipline](https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254/ref=pd_lpo_sbs_14_img_1?_encoding=UTF8&psc=1&refRID=XVZ97DZE57X5NFD9P4R9)
+
+# Recommended Articles
+
+- [How To Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software)
+- [Software Architecture Guide](https://martinfowler.com/architecture)
+- [Is High Quality Software Worth The Cost?](https://martinfowler.com/articles/is-quality-worth-cost.html)
