@@ -1,6 +1,8 @@
-# On Architecture Styles
+# On Architecture
 
-## Monoliths
+## Architecture Styles
+
+### Monoliths
 A single artefact deployed as one component whose design and implementation is disorganised.
 This style can eventuate for a numbers of reasons:
 - Unintentionally: A modular design was intended, but internal architecture & design was loosely considered and enforced and/or implementors were poorly skilled. 
@@ -11,7 +13,7 @@ This style typically leads to a component whose development and/or operations be
 Resources:
 -[Monolithic System definition](https://en.wikipedia.org/wiki/Monolithic_system) 
 
-## Modular Monoliths
+### Modular Monoliths
 A single artefact deployed as one component whose design and implementation is well organised.
 This is also known as _Beautiful Monoliths_ and _Majestic Monoliths_.
 
@@ -44,7 +46,7 @@ Resources:
 - [The Majestic Monolith (Basecamp)](https://m.signalvnoise.com/the-majestic-monolith/)
 - [Majestic Modular Monoliths](https://speakerdeck.com/axelfontaine/majestic-modular-monoliths?slide=56)
 
-## Service Orientated Architecture
+### Service Orientated Architecture
 Many artefacts deployed as separate physical components with no insinuation as to their quality - they may be organised or disorganised.
 Critically, a set of services work together to make-up the system.  The boundaries and size of the services are arbitrary, but best guided by Domain Driven Design theory.
 
@@ -59,7 +61,7 @@ Resources:
 - [Service Oriented Abiguity](https://martinfowler.com/bliki/ServiceOrientedAmbiguity.html)
 - [Smart endpoints and dumb pipes](https://martinfowler.com/articles/microservices.html#SmartEndpointsAndDumbPipes)
 
-## Microservices
+### Microservices
 Many small artefacts deployed as separate physical components with no insinuation as to their quality.
 
 This style is similar to Service Orientated Architecture and suffers from the same distribution consequences, but is distinguished by a focus on the following benefits:
@@ -73,7 +75,7 @@ Resources:
 - [Microservices](https://en.wikipedia.org/wiki/Microservices)
 - [The Evolution Of Scalable Microservices](https://www.oreilly.com/ideas/the-evolution-of-scalable-microservices)
 
-## Serverless
+### Serverless
 Many functions deployed as separate physical components with no insinuation as to their quality. 
 This is also known as _Functions as a Service (FaaS)_.
 
@@ -94,3 +96,6 @@ This style is a realisation of the Nanoservices style that aims for extremely sm
 Resources:
 - [Serverless architectures](https://martinfowler.com/articles/serverless.html)
 - [Nanoservices](https://www.infoq.com/news/2014/05/nano-services)
+
+## The Significance Of DDD
+For non-trivial domains, [DDD](ddd.md) drives the critical aspects of the solution - its architecture and design. 

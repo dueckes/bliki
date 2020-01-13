@@ -64,6 +64,7 @@ It's theory spans analysis, architecture, design and implementation concerns.
   
 ## Implementation
 - Naming consistent with ubiquitous language!
+- Business domains integrate via business systems, not generic systems.  Generic systems should be considered part of the implementation detail, encapsulated by business systems.
 
 ### On Readability And Clarity Of Responsibility
 - Intention revealing interfaces

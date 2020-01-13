@@ -6,13 +6,13 @@
 
 [Architect Role](architect_role.md)
 
-[Architecture Styles](architecture_styles.md)
+[Architecture](architecture.md)
 
 [Conways Law](conways_law.md)
 
-[Craftspersonship](craftspersonship.md)
-
 [Domain Driven Design](ddd.md)
+
+[Craftspersonship](craftspersonship.md)
 
 [Test Driven Development](tdd.md)
 
@@ -27,3 +27,5 @@
 [Continuous Improvement](continuous_improvement.md)
 
 [Psychology](psychology.md)
+
+[Recruitment](recruitment.md)
